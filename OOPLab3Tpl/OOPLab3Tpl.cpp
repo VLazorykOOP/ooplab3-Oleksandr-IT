@@ -16,9 +16,14 @@ int main()
 //  Функції та класи можуть знаходитись в інших файлах проекту
 
     int conv = 1;
-    if (conv == 1) conv = mainExample1();
-    if (conv == 1) conv = mainExample3(); 
-    if (conv == 1) conv = mainExample4();
-
+    
+    // Завдання 1.6 - Diamond (Ромб)
+    if (conv == 1) conv = mainExample1_6();
+    
+    // Завдання 2.6 - Vector3D
+    if (conv == 1) conv = mainExample2_6();
+    
+    // Завдання 3.6 - Matrix2D
+    if (conv == 1) conv = mainExample3_6();
 }
 
